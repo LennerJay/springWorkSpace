@@ -91,8 +91,8 @@ class Desktop implements Computer {
  * }
  * use case
  * 
- * functionalInterface fi = new functionalInterface()
- * {
+ * functionalInterface fi = new functionalInterface(){
+ * @Override
  * method()
  * {
  * [do something]
