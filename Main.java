@@ -102,7 +102,8 @@ class Desktop implements Computer {
  * 
  * 3. marker interface (no methods)
  * purpose? for serialization / disseria..
- * just think of anonymous object that has value and that object should put in
+ * just think of anonymous object that has value and that object should
+ * put/store in
  * the harddrive
  * remember this fcker -> anonymous object in the heap memory to hard
  * drive(serialization)
