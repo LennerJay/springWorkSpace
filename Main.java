@@ -71,3 +71,42 @@ class Desktop implements Computer {
     }
 
 }
+
+/**
+ * 3 types of interface
+ * 1. normal interface (more than 1 methods)
+ * -------
+ * interface normalInterface
+ * {
+ * method1()
+ * method2()
+ * }
+ * -------
+ * 2. functional interface / SAM(Single Abstract Method)
+ * purpose? declaring methods(logic) after initialization, for instance
+ * 
+ * interface functionalInterface
+ * {
+ * method();
+ * }
+ * use case
+ * 
+ * functionalInterface fi = new functionalInterface()
+ * {
+ * method()
+ * {
+ * [do something]
+ * }
+ * };
+ * 
+ * 
+ * 3. marker interface (no methods)
+ * purpose? for serialization / disseria..
+ * just think of anonymous object that has value and that object should put in
+ * the harddrive
+ * remember this fcker -> anonymous object in the heap memory to hard
+ * drive(serialization)
+ * and the opposite is disserialization
+ * similar concept of caching i guess :)
+ * 
+ */
